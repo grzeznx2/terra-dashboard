@@ -1,0 +1,45 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: var(--box-bcg);
+  box-shadow: var(--box-shadow);
+
+  &__top {
+    text-align: center;
+  }
+  &__middle {
+    flex-grow: 1;
+    padding: 1rem;
+  }
+  &__bottom {
+    text-align: center;
+  }
+
+  &__title-wrapper {
+    padding: 1rem;
+    background-color: var(--box-top-bcg);
+  }
+
+  &__title {
+    color: var(--box-header-color);
+    font-size: 2.2rem;
+  }
+
+  &__title-link {
+    color: var(--link-color-primary);
+    font-size: 1.8rem;
+  }
+
+  &__content-link {
+    color: var(--link-color-secondary);
+  }
+
+  &__button-wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+}
